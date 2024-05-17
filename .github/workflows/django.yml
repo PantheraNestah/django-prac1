@@ -26,6 +26,7 @@ jobs:
         source learn-dj/bin/activate
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install django
     - name: Run Tests
       run: |
         python manage.py test
