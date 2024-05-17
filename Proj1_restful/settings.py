@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "register_auth",
     "Proj1_restful",
     "rest_framework",
     "django.contrib.admin",
